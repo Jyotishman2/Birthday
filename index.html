@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Bash </title>
+  <link rel="stylesheet" href="styleb.css">
+</head>
+
+<body>
+  <!-- ============navbar============ -->
+
+  <diV class="navbar">
+    <ul>
+     
+      <li><a  href="pictures.html">
+          <img width=20px height=20px style="padding-right:5px ;" src="camera.png"> PICTURES</a></li>
+          <li style="display: flex;">
+            <a >
+              <img width=20px height=20px style="padding-right:5px ;"  src="heart.png" alt="">MEMORIES</a>
+              
+          </li>
+      <li><a href="#contact"><img width=20px height=20px style="padding-right:5px ;" src="star.png" alt="">
+          WISHES</a></li>
+      <li><a class="active"> <img width=20px height=20px style="padding-right:5px ;" src="giftbox.png"
+            alt="">GIFTS</a></li>
+    </ul>
+  </div>
+  <!-- ============navbar end============ -->
+
+
+  <!-- =======================confettii======================= -->
+
+  <script src="confetti.js"></script>
+  <!-- Confetti  JS-->
+  <script>
+
+    // start
+
+    const start = () => {
+      setTimeout(function () {
+        confetti.start()
+      }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+    };
+
+    //  Stop
+
+    const stop = () => {
+      setTimeout(function () {
+        confetti.stop()
+      }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+    };
+
+    start();
+    stop();
+  </script>
+  <!-- ========================confetti-end============================= -->
+
+
+  <!-- =============first page============  -->
+
+  <div class="first-page">
+    <video src="0817(1).mp4" class="first-video" autoplay muted></video>
+    <div class="first-flex">
+      <div class="wishing-text">
+        WISHING
+      </div>
+      <div class="second-txt">
+        YOU A VERY
+      </div>
+      <div class="third-txt">
+        HAPPY BIRTHDAY !!!!
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  <!-- =============firstpage-end============  -->
+
+
+  <div class="section"></div>
+
+
+  <!-- ============second-page================ -->
+  <div class="header-txt">
+
+  </div>
+  <div class="box2" style="height: 50vw;">
+    <img class=" img-1" src="celebration.jpeg" alt="">
+    <div class="wish2-txt">"Wishing you the happiest of birthdays, [Friend's Name]! 🎂 Today is a celebration of
+      you—your kindness, your strength, and your ability to light up any room. I’ve watched you grow and achieve so
+      much, and I’m constantly inspired by your resilience and positive spirit. As you embark on this new chapter, I
+      hope you’re surrounded by all the people who love and admire you. May your days be filled with new adventures,
+      your nights with peace, and your year with all the success and happiness you deserve. Here’s to celebrating you
+      today and always, and to many more years of amazing friendship!"
+      - Harry
+    </div>
+  </div>
+  <div class="section2"></div>
+  <div class="second-wish">
+    <video class="second-wish-video" autoplay muted loop src="videoplayback.mp4"></video>
+    <div class="second-wish-text">"Wishing you the happiest of birthdays, [Friend's Name]! 🎂 Today is a celebration of
+      you—your kindness, your strength, and your ability to light up any room. I’ve watched you grow and achieve so
+      much, and I’m constantly inspired by your resilience and positive spirit. As you embark on this new chapter, I
+      hope you’re surrounded by all the people who love and admire you. May your days be filled with new adventures,
+      your nights with peace, and your year with all the success and happiness you deserve. Here’s to celebrating you
+      today and always, and to many more years of amazing friendship!"
+    </div>
+  </div>
+
+  <!-- =======================second-page-end========================== -->
+
+  <div class="section"></div>
+
+  <!-- ===========================third-page-start============================== -->
+  <h1 class="gift-select">SELECT YOUR GIFT</h1>
+  <div class="horizontal-row">
+    <div><img class="hr-1" id="img" src="imgreplace1.jpeg" alt=""></div>
+    <div><img class="hr-2" id="img" src="imgreplace2.jpeg" alt=""></div>
+    <div><img class="hr-3" id="img" src="imgreplace3.jpeg" alt=""></div>
+  </div>
+  <!-- ===========================third-page-end============================== -->
+  <!-- ===================================footer-start=========================== -->
+  <div class="section" style="height: 50vh;;">
+    <footer>
+      <img src="footerimg.jpeg" alt="" class="footer-img">
+      <div class="ending-txt"> Have a Great Day ❤️</div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
